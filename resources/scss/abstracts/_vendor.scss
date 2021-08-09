@@ -1,0 +1,52 @@
+/**
+* We'll load Bootstrap an open source toolkit for developing with HTML, CSS, and JS.
+* Documentation: https://getbootstrap.com/
+*/
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '~bootstrap';
+// @import '~bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+// @import '~bootstrap/scss/variables';
+// @import '~bootstrap/scss/mixins';
+
+// 4. Include any optional Bootstrap components as you like
+// @import '~bootstrap/scss/root';
+// @import '~bootstrap/scss/reboot';
+// @import '~bootstrap/scss/type';
+// @import '~bootstrap/scss/images';
+// @import '~bootstrap/scss/containers';
+// @import '~bootstrap/scss/grid';
+// @import '~bootstrap/scss/transitions';
+// @import '~bootstrap/scss/nav';
+// @import '~bootstrap/scss/tables';
+// @import '~bootstrap/scss/forms';
+// @import '~bootstrap/scss/buttons';
+// @import '~bootstrap/scss/card';
+// @import '~bootstrap/scss/accordion';
+// @import '~bootstrap/scss/utilities';
+
+/**
+* Documentation: http://kenwheeler.github.io/slick/
+*/
+@import '~slick-carousel/slick/slick';
+// @import '~slick-carousel/slick/slick-theme';
+
+/**
+* Documentation: https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers
+*/
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+/**
+* Documentation: https://github.com/sass-mq/sass-mq
+*/
+// @import '~sass-mq/mq';
+
+/**
+* Documentation: https://sachinchoolur.github.io/lightGallery/
+* Uncomment to use
+*/
+// @import '~lightgallery/src/sass/lightgallery';

@@ -1,0 +1,91 @@
+.header {
+  background-color: $white;
+  box-shadow: $box-shadow;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  .button {
+    font-size: 0.875rem;
+    padding: 0.25rem 1rem;
+  }
+
+  .topbar-primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+
+  .topbar-default {
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.navigation {
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  color: $body-color;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu-item {
+    margin-right: 3.5rem;
+    position: relative;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .menu-item a {
+    color: inherit;
+    display: block;
+    font-size: 0.875rem;
+    padding: 1rem 0.25rem;
+    text-transform: uppercase;
+
+    &:after {
+      background-color: $secondary;
+      bottom: 0;
+      content: '';
+      height: 2px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      transition: 0.3s ease;
+      width: 0;
+    }
+  }
+
+  .menu-item a:hover:after,
+  .current-menu-item a:after {
+    width: 100%;
+  }
+}
+
+.search-button {
+  margin-left: 2rem;
+}

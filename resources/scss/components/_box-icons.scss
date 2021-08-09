@@ -1,0 +1,10 @@
+.box-icons {
+  z-index: 1;
+}
+.box-icons__bullets {
+  max-width: 220px;
+  position: absolute;
+  right: 3%;
+  z-index: -1;
+  transform: translateY(-40%);
+}

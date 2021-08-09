@@ -1,0 +1,26 @@
+.content-image {
+}
+
+.content-image__list {
+  list-style: none;
+  margin: 3.75rem 0 0;
+  padding: 0;
+}
+
+.content-image__item {
+  display: flex;
+  margin-bottom: 3.125rem;
+
+  .material-icons {
+    align-items: center;
+    background-color: $primary;
+    border-radius: 50%;
+    color: $white;
+    display: flex;
+    flex: 0 0 auto;
+    height: 58px;
+    margin-right: 1.5rem;
+    justify-content: center;
+    width: 58px;
+  }
+}

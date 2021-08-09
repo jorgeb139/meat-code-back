@@ -1,0 +1,13 @@
+.post-card {
+  background-color: $secondary-gray;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.post-card__content {
+  padding: 2rem;
+}

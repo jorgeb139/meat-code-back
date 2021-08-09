@@ -1,0 +1,41 @@
+/**
+* Import different sass files for the project
+* Reference: https://sass-guidelin.es/es/#arquitectura
+*/
+
+/**
+* Abstracts: files for handles function, mixins, and variables
+*/
+
+@import 'abstracts/variables';
+@import 'abstracts/spacing';
+@import 'abstracts/vendor';
+@import 'abstracts/mq';
+
+/**
+* Base: files for animations, base, typography, and utilities
+*/
+
+@import 'base/general';
+@import 'base/utilities';
+@import 'base/typography';
+@import 'base/buttons';
+@import 'base/sliders';
+
+/**
+* Components: have a single scss file for each individual component
+*/
+
+@import 'components/header';
+@import 'components/hero-card';
+@import 'components/color-icon-card';
+@import 'components/box-icons';
+@import 'components/box-icon-card';
+@import 'components/hero-tabs';
+@import 'components/post-card';
+@import 'components/logos-slider';
+@import 'components/content-image';
+@import 'components/outside-card';
+@import 'components/banner';
+@import 'components/slider-nav';
+@import 'components/footer';

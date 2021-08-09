@@ -1,0 +1,25 @@
+.box-icon-card {
+  background-color: $white;
+  border: 1px solid $primary;
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+.box-icon-card__icon {
+  background-color: $primary;
+  border: 1px solid $white;
+  align-items: center;
+  border-radius: 50%;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  height: 58px;
+  margin: 0 auto;
+  width: 58px;
+}
