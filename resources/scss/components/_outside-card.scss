@@ -1,0 +1,28 @@
+.outside-card {
+  &:hover {
+    .outside-card__content {
+      background-color: $primary;
+      color: $white;
+    }
+
+    .button {
+      border-bottom-color: $white;
+      color: inherit;
+    }
+  }
+}
+
+.outside-card__content {
+  background-color: $secondary-gray;
+  margin-bottom: -10%;
+  padding: 3.5rem 3.5rem 2rem;
+  position: relative;
+  transform: translateY(-50%);
+  transition: 0.3s ease;
+  width: 90%;
+}
+
+.outside-card__title {
+  align-items: center;
+  display: flex;
+}

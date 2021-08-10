@@ -1,0 +1,66 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: $primary;
+  color: $white;
+}
+::-moz-selection {
+  background-color: $primary;
+  color: $white;
+}
+
+.title {
+  font-family: $headings-font-family;
+  font-size: 1rem;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  margin: 0;
+
+  a {
+    color: inherit;
+  }
+}
+
+.title--xl {
+  font-size: 2.625rem;
+  line-height: 130%;
+}
+
+.title--l {
+  font-size: 2.125rem;
+  line-height: 130%;
+}
+
+.title--m {
+  font-size: 1.625rem;
+  line-height: 140%;
+}
+
+.title--s {
+  font-size: 1.125rem;
+  line-height: 140%;
+}
+
+.text {
+  font-size: 1rem;
+  opacity: 0.6;
+}
+
+.text--s {
+  font-size: 0.875rem;
+}
+
+.text--l {
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+
+.label {
+  .material-icons {
+    font-size: 1.2em;
+    vertical-align: sub;
+  }
+}

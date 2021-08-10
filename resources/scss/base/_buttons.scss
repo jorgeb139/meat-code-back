@@ -1,0 +1,85 @@
+.button {
+  @extend .btn;
+  // appearance: none;
+  // background-color: transparent;
+  // border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  // font-family: $headings-font-family;
+  // font-size: 1rem;
+  // font-weight: 700;
+  padding: 0;
+  text-align: center;
+  white-space: normal;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled,
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.button__icon {
+  display: block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transition: 0.35s ease;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.button--default,
+.button--link,
+.button--primary {
+  font-family: $headings-font-family;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.008em;
+  text-transform: uppercase;
+}
+
+.button--default {
+  padding: 0.75rem 3rem;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.button--primary {
+  background-color: $primary;
+  border-radius: 50px;
+  color: $white;
+  padding: 0.75rem 3rem;
+
+  &:hover {
+    background-color: $white;
+    border-color: $primary;
+    color: $primary;
+  }
+}
+
+.button--link {
+  border-bottom: 1px solid transparent;
+  color: $primary;
+  padding-bottom: 0.25rem;
+
+  &:hover {
+    border-bottom: 1px solid inherit;
+  }
+}

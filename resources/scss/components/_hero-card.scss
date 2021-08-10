@@ -1,0 +1,51 @@
+.hero-card {
+  position: relative;
+}
+
+.hero-card__content {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hero-card__image {
+  position: relative;
+}
+
+.hero-card__circle {
+  background-image: url('../../images/circle-red.svg');
+  bottom: 0;
+  height: 30px;
+  left: 35%;
+  position: absolute;
+  transform: translateY(15px);
+  width: 30px;
+}
+
+.hero-card__half {
+  background-image: url('../../images/half-circle-yellow.svg');
+  bottom: 0;
+  height: 131px;
+  position: absolute;
+  right: 0;
+  transform: translateY(50%);
+  width: 55px;
+}
+
+.hero-card__quarter {
+  background-image: url('../../images/quarter-circle-green.svg');
+  height: 61px;
+  left: 55%;
+  position: absolute;
+  top: 0;
+  transform: translateY(-60%);
+  width: 60px;
+}
+
+.hero-slider .hero-card {
+  padding: 4.5rem 0 4rem;
+}
