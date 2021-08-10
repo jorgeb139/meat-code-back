@@ -7,13 +7,13 @@
 
 <div class="shape-background-right"></div>
 
-@include('components.color-icons', [
+@include('components.color-icons', 
   $proposito
-])
+)
 
-@include('components.box-icons', [
+@include('components.box-icons', 
   $pilares
-])
+)
 
 <div class="shape-background-left"></div>
 
@@ -21,12 +21,12 @@
   'items' => $hero_tab,
 ])
 
-@include('components.featured-slider', [
+@include('components.featured-slider', 
   $destacado
-])
+)
 
-@include('components.logos-slider', [
+@include('components.logos-slider', 
   $alianzas
-])
+)
 
 @endsection
